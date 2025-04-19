@@ -1,28 +1,63 @@
 /*STYLE FOOTER START*/
-/* raleway-200 - latin */
+/* raleway-200 - cyrillic_latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 200;
-    src: url('../fonts/raleway-v34-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* raleway-300 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../fonts/raleway-v34-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* raleway-regular - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/raleway-v34-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/raleway-v34-cyrillic_latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-300 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/raleway-v34-cyrillic_latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/raleway-v34-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+.footer {
+  background: #FFFFFF;
+  padding: 100px 0;
+}
+.footer__wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 150px;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
 
+}
+.footer__menu-title{
+  color: #252525;
+  font-family: 'Raleway',serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+.footer__menu-item {
+  padding-bottom: 10px;
+}
+.footer__menu-link {
+  color: #252525;
+  font-family: 'Raleway',serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-decoration: none;
+}
+.footer__menu-link:active , .footer__menu-link:hover, .footer__menu-link:focus{
+  opacity: .75;
+}
   
   /*STYLE FOOTER END*/
