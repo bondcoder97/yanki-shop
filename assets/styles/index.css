@@ -26,3 +26,36 @@
 
   
   /*STYLE FOOTER END*/
+
+
+body {
+  background-color: #fff;
+}
+
+.main-screen {
+  background-image: url('/assets/img/main-screen_img.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.main-screen_txt {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #fff;
+  padding-top: 41px;
+}
+
+.main-screen_content {
+}
+
+.main-screen__heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 46px;
+  color: #fff;
+  text-align: center;
+  margin-top: 393px;
+ }
