@@ -59,5 +59,13 @@
 .footer__menu-link:active , .footer__menu-link:hover, .footer__menu-link:focus{
   opacity: .75;
 }
+.copy {
+  color: rgba(37, 37, 37, 1);
+  font-family: 'Raleway',serif;
+  font-weight: 300;
+  font-size: 12px;
+  padding-top: 50px;
+  padding-left: 25%;
+}
   
   /*STYLE FOOTER END*/
