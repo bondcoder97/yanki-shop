@@ -93,9 +93,17 @@ body {
   text-align: center;
   color: #fff;
   padding-top: 41px;
+  margin-left: 880px;
 }
 
 .main-screen_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-screen_arrow {
+  padding-right: 800px;
+  padding-top: 38px;
 }
 
 .main-screen__heading {
@@ -104,5 +112,14 @@ body {
   font-size: 46px;
   color: #fff;
   text-align: center;
-  padding-top: 393px;
+  padding-top: 480px;
+  margin-left: 100px;
+ }
+
+.main-screen__line {
+  background-color: #ffffff;
+  width: 120px;
+  height: 1px;
+  margin-left: 910px;
+  margin-top: 30px;
  }
