@@ -80,15 +80,15 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 1140px;
   margin: 0 auto;
-  width: 100%;
 }
+
+/*MAIN-SCREEN*/
 
 .main-screen {
   background-image: url('../img/main-screen_img.png');
-  width: 1440px;
-  height: 900px;
+  width: 100%;
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
@@ -130,3 +130,52 @@ body {
   margin-right: 660px;
   margin-top: 20px;
  }
+
+ /*HEADER*/
+
+ header {
+  width: 100%;
+  position: absolute;
+  margin-top: 33px;
+ }
+
+ .main-menu__part a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+ .currency {
+  color: #fff;
+  display: flex;
+  padding-left: 93.91px;
+  gap: 20.02px;
+ }
+
+ .main-menu {
+  margin-left: 150px;
+  display: flex;
+  
+ }
+
+ .main-menu__part ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+ }
+
+ .burger-img {
+  width: 34px;
+  height: 24px;
+  padding-right: 104px;
+ }
+
+.yanki-logo_img {
+  padding-left: 120px;
+}
+
+.icons-nav__img {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 75.98px;
+  gap: 30px;
+}
